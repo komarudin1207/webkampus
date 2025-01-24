@@ -1,0 +1,134 @@
+/* Global styles */
+body {
+  font-family: 'Arial', sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #f9f9f9;
+  color: #161616;
+}
+
+/* Header styles */
+header {
+  position: sticky;
+  top: 0;
+  z-index: 1000;
+}
+
+header nav a {
+  text-decoration: none;
+  color: inherit;
+}
+
+header ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  display: flex;
+  gap: 1rem;
+}
+
+.hamburger-menu i {
+  cursor: pointer;
+}
+
+/* Hero section */
+section.bg-gray-900 {
+  background-image: url('hero-iu.jpg'); /* Ganti dengan URL atau path gambar Anda */
+  background-size: cover; /* Menutupi seluruh elemen secara proporsional */
+  background-position: center; /* Gambar diatur berada di tengah */
+  background-repeat: no-repeat; /* Mencegah gambar terulang */
+  background-color: #1a202c; /* Warna cadangan jika gambar tidak dimuat */
+  background-blend-mode: multiply; /* Memberikan efek warna campuran dengan warna background */
+  color: #fff; /* Warna teks */
+}
+
+
+section.bg-gray-900 h3 {
+  font-size: 3rem;
+  font-weight: bold;
+}
+
+section.bg-gray-900 p {
+  color: #a0aec0;
+}
+
+section.bg-gray-900 a {
+  display: inline-block;
+  text-decoration: none;
+}
+
+/* Services section */
+section#services {
+  background-color: #edf2f7;
+}
+
+section#services h3 {
+  font-size: 2.5rem;
+  font-weight: bold;
+}
+
+section#services .flex {
+  display: flex;
+  align-items: start;
+  gap: 1rem;
+}
+
+section#services img {
+  width: 100px;
+  height: auto;
+}
+
+/* Portfolio section */
+section#portofolio {
+  background-color: #fff;
+}
+
+section#portofolio h3 {
+  font-size: 2.5rem;
+  font-weight: bold;
+}
+
+section#portofolio .grid {
+  gap: 1.5rem;
+}
+
+section#portofolio img {
+  width: 100%;
+  height: auto;
+}
+
+/* About section */
+section#about {
+  background-color: #f7fafc;
+}
+
+section#about img {
+  border-radius: 10px;
+  object-fit: cover;
+}
+
+section#about ul {
+  list-style: none;
+  display: flex;
+  gap: 1rem;
+}
+
+section#about ul a {
+  text-decoration: none;
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+}
+
+section#about ul a:hover {
+  color: #e53e3e;
+}
+
+/* Footer */
+footer {
+  background-color: #1a202c;
+  color: #fff;
+  text-align: center;
+  padding: 1rem 0;
+  font-size: 1rem;
+}
